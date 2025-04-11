@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4", "Tutorial4\Tutorial4.csproj", "{FA599CF0-07D7-4D82-AAA3-EF461C531F3F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial4Tests", "Tutorial4Tests\Tutorial4Tests.csproj", "{73439BA3-64B9-4BEC-A837-8A5044D3E5BB}"
@@ -18,5 +21,11 @@ Global
 		{73439BA3-64B9-4BEC-A837-8A5044D3E5BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73439BA3-64B9-4BEC-A837-8A5044D3E5BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73439BA3-64B9-4BEC-A837-8A5044D3E5BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E2868CB-1EAC-44FB-9099-D37A60D9F605}
 	EndGlobalSection
 EndGlobal

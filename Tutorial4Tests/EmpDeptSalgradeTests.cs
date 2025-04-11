@@ -11,7 +11,7 @@ public class EmpDeptSalgradeTests
 
         List<Emp> result = emps
             .Where(e => e.Job == "SALESMAN")
-            .ToList();; 
+            .ToList();
 
         Assert.Equal(2, result.Count);
         Assert.All(result, e => Assert.Equal("SALESMAN", e.Job));
